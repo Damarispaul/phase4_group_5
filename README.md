@@ -26,10 +26,10 @@ the model will classify tweets as positive, negative, or neutral. Insights will 
 
 ## Metrics of Success
 
-- Accuracy: Achieve at least 70% accuracy, reflecting the model's overall reliability in correctly classifying sentiments across all categories
-- Precision: Attain a precision of 65%, ensuring that when the model identifies tweets as positive or negative, the predictions are consistently accurate.
-- Recall: Ensure the model catches as many actual negative tweets as possible, minimizing the chances of missing important negative feedback.
-- F1 Score: The F1 score shows how well the model balances being accurate (precision) and not missing important feedback (recall). A higher 
+- Accuracy: Achieve at least 85% accuracy, reflecting the model's overall reliability in correctly classifying sentiments across all categories
+- Precision: Attain a precision of between 65% - 85% ensuring that when the model identifies tweets as positive or negative, the predictions are consistently accurate.
+- Recall: Ranging between 70% to 85% to ensure the model catches as many actual negative tweets as possible, minimizing the chances of missing important negative feedback.
+- F1 Score: The F1 score of between 70% to 85% shows how well the model balances being accurate (precision) and not missing important feedback (recall). A higher 
 score means the model is good at correctly identifying sentiments while catching as many relevant tweets as possible.
 - Sentiment Class Balance: Make sure the model treats all sentiment types (positive, negative, and neutral) fairly. This means it shouldn't 
 favor one type over others or perform much better on one while struggling with the rest.
